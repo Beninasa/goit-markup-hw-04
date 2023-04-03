@@ -1,6 +1,7 @@
 :root {
   --navy-blue: #2e2f42;
   --slate: #434455;
+  --light-slate: #8e8f99;
   --white: #ffffff;
   --cornflower: #e7e9fc;
   --iris: #4d5ae5;
@@ -213,8 +214,8 @@ body {
   margin-bottom: 8px;
 }
 
-.technology-icon {
-}
+/* .technology-icon {
+} */
 
 .technology-list {
   display: flex;
@@ -305,8 +306,8 @@ body {
   margin-bottom: 32px;
 }
 
-.team-item-wrap {
-}
+/* .team-item-wrap {
+} */
 
 .team-person-name {
   font-weight: 500;
@@ -359,6 +360,55 @@ body {
   fill: var(--cloud);
 }
 
+/*-------------------------- Customers --------------------------*/
+
+/* .customers {
+} */
+
+.customers-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: calc((100% - 120px) / 6);
+  gap: 24px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.customers-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-slate);
+}
+
+.customers-icon {
+  fill: currentColor;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+  color: var(--ocean);
+  border-color: var(--ocean);
+}
+
 /*-------------------------- Footer --------------------------*/
 
 .footer {
@@ -371,11 +421,6 @@ body {
 .footer-container {
   display: flex;
 }
-
-/* .footer-leftside {
-  display: flex;
-  flex-direction: column;
-} */
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
