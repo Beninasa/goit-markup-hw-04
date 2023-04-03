@@ -205,6 +205,17 @@ body {
 /* .technology-title{
  } */
 
+.technology-block-icon {
+  background-color: var(--cloud);
+  display: flex;
+  align-items: center;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
+.technology-icon {
+}
+
 .technology-list {
   display: flex;
   align-items: center;
@@ -212,7 +223,7 @@ body {
 }
 
 .technology-list-items {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .technology-items-name {
   font-weight: 500;
@@ -354,10 +365,17 @@ body {
   background: var(--navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 
 .footer-container {
+  display: flex;
 }
+
+/* .footer-leftside {
+  display: flex;
+  flex-direction: column;
+} */
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -375,20 +393,18 @@ body {
 }
 
 .footer-content {
-  width: 264px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  margin: 16px, 0px, 0px, 0px;
-  display: block;
+  margin-top: 16px;
 }
 
 .footer-wrap {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  margin-left: 120px;
 }
 
 .footer-wrap-name {
